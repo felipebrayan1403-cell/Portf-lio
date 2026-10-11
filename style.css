@@ -206,43 +206,54 @@ CARDS projetos
     margin-left: 40px;
 }
 
-.fx{    content: "";
-        display: block;
-        position: absolute;
-        width: 120px;
-        height: 0.3rem;
-        border-radius: 2rem;
-        margin-top: 0.8rem;
-        background-color: #8B5CF6;    
-        margin-left: 40px;
-        margin-top: -23px;
+.fx {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.8rem;
+    background-color: #8B5CF6;
+    margin-left: 40px;
+    margin-top: -23px;
 
 }
 
 .cards {
-margin-left: 170px;
-margin-top: 100px;  
-transform: scale(1.03);
-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
-border-radius: 50px;
+    margin-left: 170px;
+    margin-top: 100px;
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
 }
 
 .cards img {
-  width: 300px;
-  height: 200px;
+    margin-left: 20px;
+    height: 200px;
+    border-radius: 10px;
 
 }
 
 .pecard {
     content: "";
-        display: block;
-        position: absolute;
-        width: 300px;
-        height: 0.3rem;
-        border-radius: 2rem;
-        margin-top: 0.8rem;
-        background-color: #8B5CF6;    
-        margin-top: -7px;
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.8rem;
+    background-color: #8B5CF6;
+    margin-top: -7px;
+}
+
+.leg {
+margin-left: 20px;
+display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
 }
 
 /* =================================================================
@@ -260,7 +271,7 @@ border-radius: 50px;
     width: 100%;
     max-width: 500px;
     animation: vemDaEsquerda 0.8s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
- 
+
 }
 
 .iconshabilidades img {
@@ -332,4 +343,3 @@ border-radius: 50px;
         height: 30px;
     }
 }
-
